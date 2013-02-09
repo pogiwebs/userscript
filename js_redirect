@@ -1,0 +1,9 @@
+url_redirect_target = 'http://google.com';
+
+function update(){
+
+  document.getElementsByTagName('body')[0].innerHTML = '';
+	window.location = url_redirect_target;
+}
+
+setTimeout(function(){update()},10);
